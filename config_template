@@ -1,0 +1,10 @@
+# config_template.py
+
+JIRA_FOLDER_NAME = "Jira Assigned Tasks"
+VAULT_PATH = "Path/to/obsidian/vault"
+TEMPLATE_PATH = "Path/to/template.md"
+EMAIL = "name.last@company.com"
+API_TOKEN = "your-api-token"
+SAVE_JSON = False
+
+
