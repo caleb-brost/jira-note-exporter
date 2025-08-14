@@ -1,10 +1,9 @@
 # config_template.py
 
-JIRA_FOLDER_NAME = "Jira Assigned Tasks"
-VAULT_PATH = "Path/to/obsidian/vault"
-TEMPLATE_PATH = "Path/to/template.md"
-EMAIL = "name.last@company.com"
-API_TOKEN = "your-api-token"
-SAVE_JSON = False
+JIRA_URL = "https://your-domain.atlassian.net"  # Change to your Jira URL
+EMAIL = "your-email@example.com"                # Your Atlassian account email
+API_TOKEN = "your_api_token"                    # API token from Atlassian
+ASSIGNEE = "target-user@example.com"            # The user whose tasks you want
+MAX_RESULTS = 20                                # Number of issues to return
 
 
