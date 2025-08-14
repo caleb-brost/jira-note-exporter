@@ -1,7 +1,8 @@
-````markdown
 # jira-note-exporter
 
-A Python tool that extracts Jira task info from Outlook assignment emails and generates Obsidian-friendly Markdown notes. It includes key metadata, links, and uses a customizable template to help keep sprint tasks organized and accessible.
+A Python tool that extracts Jira task info from Outlook assignment emails and generates Obsidian-friendly Markdown notes.
+It includes key metadata, links, and uses a customizable template to help keep sprint tasks organized and accessible.
+
 
 ---
 
