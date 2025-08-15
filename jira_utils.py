@@ -6,6 +6,8 @@ def format_jira_time(timestamp: str) -> str:
     
     Example input: '2025-07-22T17:28:12.925-0600'
     """
+    if timestamp is None:
+        return "None"
     dt = datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%S.%f%z")
     return dt.strftime("%Y-%m-%d %H:%M")
 
